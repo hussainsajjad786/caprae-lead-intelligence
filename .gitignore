@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.db
+*.db-*
+.pytest_cache/
+.coverage
+playwright-report/
+test-results/
+.DS_Store
+# Private candidate drafts are delivered locally, not published with the app.
+BUSINESS_ANSWERS.md
+RESUME_DRAFT.md
