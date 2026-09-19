@@ -177,23 +177,6 @@ npm run build
 npm audit
 ```
 
-See [SUBMISSION_AUDIT.md](SUBMISSION_AUDIT.md) for actual verification results and outstanding candidate actions. The repository contains tests for score boundaries, malformed inputs, normalization, idempotent seeding, duplicate retention, pagination, filter parity, health, and CSV protection.
 
-## Five-hour scope and future improvements
 
-I intentionally focused the MVP on two high-impact workflows: lead prioritization and lead quality. Instead of attempting a large scraping platform, I optimized for a complete, demonstrable workflow.
 
-The handbook caps engineering at five hours. No exact authoring duration is claimed here; candidates should keep and disclose their own time log and AI assistance. Authentication, payments, microservices, production ingestion, and ML were deliberately excluded.
-
-Future work: permitted source connectors, source provenance/freshness, configurable ICP, enrichment workers, CRM integrations with idempotent sync, PostgreSQL, Redis for expensive queries, object storage for exports, and learned ranking only after useful labeled outcomes exist. None is implemented.
-
-## Submission materials
-
-- [PROJECT_NOTES.md](PROJECT_NOTES.md): architecture, tradeoffs, reference-product analysis.
-- Business-answer and resume drafts are provided separately in the local candidate package; they are excluded from the public repository.
-- [VIDEO_SCRIPT.md](VIDEO_SCRIPT.md): 90–120 second walkthrough.
-- [INTERVIEW_PREP.md](INTERVIEW_PREP.md): 20 technical questions and answers.
-- [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md): exact handoff steps and email draft.
-- [PUBLISH_AND_RECORD.md](PUBLISH_AND_RECORD.md): step-by-step GitHub, Render and recording guide.
-
-Do not upload the confidential handbook or personal employment answers to a public repository. This project is an independently prepared interview demo, not an official Caprae product.
